@@ -1,0 +1,1 @@
+export const LOGO_URL = 'https://scontent.fktm17-1.fna.fbcdn.net/v/t39.30808-6/434415016_122095614446272228_9197417058067943273_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=CsC0gLImew8Q7kNvgGGV9mv&_nc_ht=scontent.fktm17-1.fna&oh=00_AYCufS3MaCu92tEjVKLnqVtArVNQ92595QKsV-549gbomg&oe=66506569'
