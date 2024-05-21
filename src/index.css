@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn{
+  @apply my-1 px-6 py-2 bg-orange-600 rounded-md text-white font-bold  shadow-md hover:bg-white hover:text-orange-600 border-2 border-transparent hover:border-orange-600
+}
