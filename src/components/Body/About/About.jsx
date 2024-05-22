@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import aboutImage from "../../../assets/aboutImage.avif";
 import aboutUs from "../../../assets/aboutUs.png";
 
@@ -28,7 +29,9 @@ function About() {
             mission is to empower individuals with the skills and knowledge they
             need to succeed in their personal and professional lives.
           </p>
+          <Link to={'about'}>
           <button className="btn">Learn More</button>
+          </Link>
         </div>
       </div>
     </div>

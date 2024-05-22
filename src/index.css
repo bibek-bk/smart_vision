@@ -8,6 +8,9 @@
   @apply my-1 px-6 py-2 bg-orange-600 rounded-md text-white font-bold  shadow-md hover:bg-white hover:text-orange-600 border-2 border-transparent hover:border-orange-600
 }
 
+.navEffect{
+  @apply cursor-pointer hover:text-orange-600  transition duration-300 hover:border-b hover:border-b-orange-600
+}
 /* Hide scroll bar for Webkit browsers (Chrome, Safari) */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
