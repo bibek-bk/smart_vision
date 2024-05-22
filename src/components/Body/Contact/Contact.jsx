@@ -5,8 +5,8 @@ import { MdEmail } from "react-icons/md";
 import Form from "./Form";
 function Contact() {
   return (
-    <div className="w-full  py-20 px-4 sm:px-16 bg-[#ffebdc]  " id="contact">
-      <div className="w-full lg:flex  bg-orange-200 px-10 pt-5 rounded-3xl">
+    <div className="w-full  py-20 px-2 sm:px-16 bg-[#ffebdc]  " id="contact">
+      <div className="w-full lg:flex  bg-orange-200 px-4 sm:px-10 py-5 rounded-3xl">
         <div className="content lg:w-1/2 ">
           <div className="healdines space-y-4 ">
             <p className="flex gap-3 items-center font-b  old text-xl sm:text-3xl text-orange-600">

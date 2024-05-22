@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 
 function App() {
   return (
-    <div className="font-Roboto">
+    <div className="font-poppins">
       <Header />
       <Outlet />
       <Footer />

@@ -1,7 +1,10 @@
 
 function ServicePage() {
   return (
-    <div>ServicePage</div>
+    <div className="min-h-screen pt-36 bg-[#FFEBDC]">
+      
+      
+    </div>
   )
 }
 

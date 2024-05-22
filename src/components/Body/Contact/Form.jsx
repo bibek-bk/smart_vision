@@ -49,7 +49,7 @@ function Form() {
   return (
     <form
       onSubmit={(e) => handleSubmit(e)}
-      className="max-w-[28rem]  w-full p-6 space-y-4     mx-auto my-10 rounded-xl bg-orange-300 "
+      className="min-w-[16rem] max-w-[28rem] w-full p-3  sm:p-6 space-y-4     mx-auto my-10 rounded-xl bg-orange-300 "
     >
       <div className="name">
         <p className="font-bold text-sm px-3">Full Name</p>

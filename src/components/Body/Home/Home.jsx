@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className=" flex flex-col sm:flex-row py-20 px-4 sm:px-16 min-h-screen    bg-[#ffebdc] ">
       <div className="mt-8 lg:mt-14 w-full max-w-[35rem] space-y-5">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold  ">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#012F5B] ">
           Transform Your Future with{" "}
           <span className="text-orange-600 font-extrabold">
             Smart Vision Institute{" "}
