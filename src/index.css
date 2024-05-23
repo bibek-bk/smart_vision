@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .btn{
-  @apply my-1 px-6 py-2 bg-orange-600 rounded-md text-white font-bold  shadow-md hover:bg-white hover:text-orange-600 border-2 border-transparent hover:border-orange-600
+  @apply my-1 px-6 py-2 bg-orange-600 rounded-md text-white font-bold  shadow-md hover:bg-white hover:text-orange-600 border-2 border-transparent hover:border-orange-600 transition duration-500
 }
 
 .navEffect{
@@ -33,3 +33,9 @@ input[type='number']::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+/* .swiper-button-prev,
+.swiper-button-next {
+  @apply   ;
+} */
+

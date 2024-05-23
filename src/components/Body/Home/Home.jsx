@@ -4,7 +4,7 @@ import hero_image from "../../../assets/main_hero.png";
 function Home() {
   return (
     <div className=" flex flex-col sm:flex-row py-20 px-4 sm:px-16 min-h-screen    bg-[#ffebdc] ">
-      <div className="mt-8 lg:mt-14 w-full max-w-[35rem] space-y-5">
+      <div className="mt-8 lg:mt-28  w-full max-w-[35rem] space-y-5">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#012F5B] ">
           Transform Your Future with{" "}
           <span className="text-orange-600 font-extrabold">
@@ -26,7 +26,7 @@ function Home() {
         <button className="btn">Join Us Today</button>{" "}
         </Link>
         {/* <Link to={'about'}> */}
-        <button className="my-1 px-6 py-2.5  text-orange-600 hover:text-white rounded-md bg-white hover:bg-orange-600 font-bold shadow-md  ">
+        <button className="my-1 px-6 py-2.5  text-orange-600 hover:text-white rounded-md bg-white hover:bg-orange-600 font-bold shadow-md transition duration-500 ">
           Learn More
         </button>
         {/* </Link> */}
