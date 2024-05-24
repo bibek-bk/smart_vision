@@ -1,7 +1,15 @@
+import { useLocation } from "react-router-dom";
 import { ServicesData } from "../../../utils/constant"
 import Card from "./Card"
+import { useEffect } from "react";
 
 function ServicePage() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <div className="min-h-screen w-full py-36 bg-[#FFEBDC]">
        <div className="w-full px-4 sm:px-16  bg-[#ffebdc]">

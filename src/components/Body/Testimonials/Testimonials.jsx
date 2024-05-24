@@ -10,7 +10,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 function Testimonials() {
   const isDesktop = window.innerWidth > 968
   return (
-    <div className="w-full py-12 px-2 sm:px-4 smpx-8 bg-orange-50  ">
+    <div id="testimonials" className="w-full py-12 px-2 sm:px-4 smpx-8 bg-orange-50  ">
       <p className="text-center pb-4 text-orange-600 font-bold text-4xl">
         Testimonials
       </p>

@@ -2,8 +2,16 @@ import mission from "../../../assets/mission.png";
 import about from "../../../assets/about.png";
 import aboutUs from "../../../assets/aboutUs.png";
 import promise from "../../../assets/promise.png";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 function AboutPage() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <div className="pt-32  px-4 sm:px-20 bg-orange-50">
       <div className="flex flex-col lg:flex-row gap-3  py-5">

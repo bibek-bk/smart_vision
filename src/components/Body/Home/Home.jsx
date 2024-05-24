@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 import hero_image from "../../../assets/main_hero.png";
 function Home() {
@@ -22,14 +23,17 @@ function Home() {
           professional certification, our diverse and dynamic courses are
           designed to help you achieve your dreams.
         </p>
+        <div className="flex flex-wrap gap-2 my-2">
         <Link to={'contact'} smooth={true} duration={1000} >
         <button className="btn">Join Us Today</button>{" "}
         </Link>
-        {/* <Link to={'about'}> */}
-        <button className="my-1 px-6 py-2.5  text-orange-600 hover:text-white rounded-md bg-white hover:bg-orange-600 font-bold shadow-md transition duration-500 ">
+        <NavLink to={'about'}>
+        <button className="my-1 w-[152.11px] text-center py-2.5  text-orange-600 hover:text-white rounded-md bg-white hover:bg-orange-600 font-bold shadow-md transition duration-500 ">
           Learn More
         </button>
-        {/* </Link> */}
+        </NavLink>
+        </div>
+        
       </div>
       <div className="mx-auto mt-5 max-w-[25rem] w-full sm:max-w-[40rem]    ">
         <img src={hero_image} alt="hero_image" />
