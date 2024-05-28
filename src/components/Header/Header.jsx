@@ -64,7 +64,7 @@ function Header() {
       <div
         className={` ${
           isMenuOpen ? " w-[90%]" : "w-0 mr-[-4rem]"
-        }  absolute md:hidden top-0 right-0  h-screen px-5 transiton duration-1000   bg-white bg-opacity-30 backdrop-filter backdrop-blur-[16px] shadow-lg `}
+        }  absolute md:hidden top-0 right-0  h-screen px-5 transiton duration-700   bg-white bg-opacity-30 backdrop-filter backdrop-blur-[16px] shadow-lg `}
       >
         <div className="relative flex gap-4 py-10 items-center">
           <MdCancel
