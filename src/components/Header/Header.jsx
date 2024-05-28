@@ -80,11 +80,7 @@ function Header() {
               </div>
             </div>
           </Link>
-          <img src={logo} alt="logo" className="w-16" />
-          <div className="h-[4rem] w-[3px] bg-orange-600"></div>
-          <div className="text-lg font-bold text-orange-600">
-            Smart Vision <br /> Institute & Consultancy
-          </div>
+    
         </div>
         <div className="flex flex-col  gap-4   text-lg font-bold">
           <NavLink
